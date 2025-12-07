@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запись на урок — Ivan Cosharnii</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Регистрация на урок</h1>
+    <p>Заполните форму, и я свяжусь с вами.</p>
+</header>
+
+<section class="form-box">
+
+  <form action="https://formsubmit.co/ivancosharnii@gmail.com" method="POST">
+
+  <input type="hidden" name="_next" value="success.html">
+  <input type="hidden" name="_captcha" value="false">
+
+  <label>Имя ученика</label>
+  <input type="text" name="Имя ученика" required>
+
+  <label>Возраст ученика</label>
+  <input type="number" name="Возраст" required min="5" max="18">
+
+  <label>Телефон родителя</label>
+  <input type="text" name="Телефон родителя" required>
+
+  <label>Удобное время</label>
+  <input type="text" name="Удобное время" placeholder="Например: после 16:00" required>
+
+  <button type="submit" class="btn">Отправить заявку</button>
+
+</form>
+
+</section>
+
+<footer>
+    © 2025 — Ivan Cosharnii
+</footer>
+
+</body>
+</html>
